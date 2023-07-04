@@ -194,9 +194,17 @@ header {
   height: 450px; /* we might need to keep this */
   padding: 2rem 0;
   background-image: url(../img/jumbo.png);
-  background-size: cover;
+  background-size: 100%;
+}
+.card{
+  height: 100%;
+  width: 100%;
 }
 
+.card_img{
+  background-image: url(../img/item1.svg);
+  background-size: cover;
+}
 
 
 /* #endregion Main */
