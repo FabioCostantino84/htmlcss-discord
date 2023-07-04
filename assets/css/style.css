@@ -6,6 +6,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+    font-family: 'gg sans', sans-serif;
+}
 section {
   padding: 2rem 0;
 }
