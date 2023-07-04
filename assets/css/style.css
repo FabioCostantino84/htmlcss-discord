@@ -30,28 +30,9 @@ section {
 /* #endregion Common */
 
 /* #region Debug */
-.de/bug .conta/iner
-{
-  background-color: rgb(255, 166, 0);
-}
-
-.deb/ug [class^='col-']
-{
-  height: 200px;
-  background-color: palegreen;
-  border: 1px dashed;
-}
-
 .debug .h-50
 {
   height: 500px;
-}
-
-.debug .login,
-.debug .logo,
-.debug .menu
-{
-  border: 1px dashed;
 }
 
 .debug .container-sm
