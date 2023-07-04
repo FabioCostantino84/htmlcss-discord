@@ -142,6 +142,7 @@ header {
 }  
 
 .logo, .login {
+  align-items: center;
   width: 30%;
 }
 .menu {
@@ -153,6 +154,7 @@ header {
 }
 .login {
   text-align: end;
+  flex-direction: row-reverse;
 }
 /* #endregion Header */
 
