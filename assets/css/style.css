@@ -10,6 +10,17 @@ section {
   padding: 2rem 0;
 }
 
+:root{
+    --bg-header: #3161e0;
+    --bg-section-white: #ffffff;
+    --bg-section-gray: #f6f6f6;
+    --bg-footer: #23272a;
+    --bg-button-1: #ffffff;
+    --bg-button-2: #23272a;
+    --bg-button-3: #8ea1e1;
+    --bg-h-text-foot: #7289da;
+}
+
 /* #endregion Common */
 
 /* #region Debug */
