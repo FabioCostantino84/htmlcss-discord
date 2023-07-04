@@ -121,7 +121,7 @@ h1{
 section{
   padding-bottom: 6rem;
 }
-h2{
+.h2_right{
   font-size: 3rem;
   padding-top: 1.5rem;
   padding-right: 9rem;
@@ -132,7 +132,17 @@ h2{
   font-size: 1.3rem;
   font-weight: normal;
 }
-
+.h2_left{
+  font-size: 3rem;
+  padding-top: 1.5rem;
+  padding-left: 9rem;
+}
+.p_left{
+  padding-left: 9rem;
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+}
 .justify-content-between {
   justify-content: space-between;
 }
@@ -168,7 +178,10 @@ h2{
   width: calc(100% / 12 * 8);
   justify-content: start;
 }
-
+.col-8_left {
+  width: calc(100% / 12 * 8);
+  justify-content: end;
+}
 
 /* Spacings */
 
@@ -224,6 +237,16 @@ header {
 
 .card_img1{
   background-image: url(../img/item1.svg);
+  background-size: cover;
+  justify-content: flex-end;
+}
+.card_img2{
+  background-image: url(../img/item2.svg);
+  background-size: cover;
+  justify-content: flex-end;
+}
+.card_img3{
+  background-image: url(../img/item3.svg);
   background-size: cover;
   justify-content: flex-end;
 }
